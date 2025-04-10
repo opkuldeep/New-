@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kuldeep's Website</title>
+</head>
+<body style="background-color: #0d1b2a; color: white; text-align: center; font-family: Arial, sans-serif;">
+
+  <header style="background-color: #1b263b; padding: 30px;">
+    <h1 style="font-size: 48px;">Hi, I'm Kuldeep</h1>
+    <p style="font-size: 24px;">Python Developer | Coder | 17 | India</p>
+  </header>
+
+  <main style="padding: 30px;">
+    <button onclick="slideUp()" style="margin-top: 30px; padding: 15px 30px; font-size: 20px; background-color: #1b263b; color: white; border: none; border-radius: 8px; cursor: pointer;">Click Me</button>
+    <div id="content" style="margin-top: 30px; font-size: 24px; opacity: 0; transform: translateY(50px); transition: all 0.5s ease-in-out;">Welcome to my personal website!</div>
+  </main>
+
+  <footer style="background-color: #1b263b; padding: 20px; font-size: 18px;">
+    <p>Contact: tpatel9752@gmail.com | Telegram: @Unknown9752</p>
+  </footer>
+
+  <script>
+    function slideUp() {
+      const content = document.getElementById("content");
+      content.style.opacity = "1";
+      content.style.transform = "translateY(0)";
+    }
+  </script>
+</body>
+</html
